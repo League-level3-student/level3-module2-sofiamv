@@ -23,11 +23,12 @@ public class SelectionSorter extends Sorter {
 					index = a;
 				}
 				display.updateDisplay();
-		}	
+			
 			//5. swap the array element at index with the array element at i
 			int temp = array[i];
 			array[i] = array[index];
 			array[index] = temp;
+			}
 		}
 	}
 }

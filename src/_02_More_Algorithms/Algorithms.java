@@ -68,5 +68,16 @@ public class Algorithms {
 
 		return sequences;
 	}
+	public static List<String> sortWords(List<String> words) {
+		for(int i = 0; i < words.size(); i++) {
+			if(words.get(i+1).compareTo(words.get(i)) < 0) {
+				String a = words.get(i+1);
+				words.get(i+1).equals(words.get(i));
+				words.get(i).equals(a);
+				
+			}
+		}
+		return words;
+	}
 	}
 
